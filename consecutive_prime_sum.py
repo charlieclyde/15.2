@@ -1,6 +1,6 @@
 i = 6
-numbers = [2, 3, 5]
-primes = [1, 1, 1]
+numbers = []
+primes = []
 
 while sum(numbers) < 1000000-i:
 	digits = map(int, range(2, i))
